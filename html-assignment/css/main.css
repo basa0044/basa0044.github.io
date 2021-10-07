@@ -67,3 +67,34 @@ a:hover {
 a:focus {
     color: rgb(107, 90, 90);
 }
+
+#second-link {
+  display:inline-block;
+  margin: 30px;
+    height: auto;
+    width: 10%;
+}
+
+dl{
+    font-size: 18px;
+    border: 3px double #ccc;
+    padding: 0.5em;
+}
+
+dt{
+    font-size: 18px;
+    float:left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    color: rgb(94, 132, 202);
+}
+
+dt::after {
+        content: ":";
+}
+
+dd {
+    margin: 0 0 0 200px;
+    padding: 0 0 0.5em 0;
+  }
