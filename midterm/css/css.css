@@ -124,41 +124,93 @@ nav li a span{
     line-height: 1.5em;
     width: 100%;
     text-align: center;
+    color: black;
 }
 
 nav a :hover {
     background:#aad4cf;
 }
 
-.homepage{
+.navlink{
     border-right: 1px solid black;
 }
 
-.contactpage{
-    border-left: 1px solid black;
-}
 
 /* *********************************************************************
                             CONTENT
 ************************************************************************ */
 
 h2{
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     font-weight: bold;
     padding-top: 40px;
-    margin: 30px;
+    margin: 10px;
+    padding-left: 20px;
 }
 
 img{
-    padding: 20px;
+    padding: 20px 20px 20px 30px;
     width: 250px;
     float: left;
 }
 
-p{
-    padding: 20px;
-    margin: 20px;
+p, ol, form{
+    padding: 30px;
+    margin: 10px 10px 0px 10px;
     font-size: 1.8rem;
     line-height: 30px;
+    list-style: square;
+    list-style-position: inside;
 }
 
+form{
+    border: 1px solid black;
+}
+
+h3, h4{
+    padding: 20px;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+label, h5{
+    margin: 30.5px;
+}
+
+.surwey{
+    margin: 0;
+    margin-left: 30.5px;
+}
+
+#fullname, #email, #message{
+    display: block;
+    width:900px;
+    height: 30px;
+    margin: 20px auto;
+    font-size: 1.5rem;
+}
+
+button{
+    display: block;
+    margin: 30px 30px 0px 30px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#message{
+    height: 120px;
+}
+
+footer{
+    text-align: right;
+    font-size: 1.5rem;
+    height: 50px;
+    padding: 10px;
+}
+
+.footer{
+    height: 50px;
+    padding-top:17.5px;
+}
