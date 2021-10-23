@@ -76,13 +76,6 @@ html{
     background-color: rgb(209, 221, 219);
 }
 
-/* targeting the main image with big-image class to make it fit inside of the width of my container  */
-/*  I added a class to my main image to avoid applying the same setting to my other small-image */
-
-.big-image{
-    width: 100%;
-}
-
 /* styling my main title of the page */
 
 #site-title{
@@ -144,17 +137,17 @@ h2{
     font-size: 3.5rem;
     font-weight: bold;
     padding-top: 40px;
-    margin: 10px;
+    margin: 10px 10px 30px 20px;
     padding-left: 20px;
 }
 
 img{
-    padding: 20px 20px 20px 30px;
+    padding: 20px 20px 20px 40px;
     width: 250px;
     float: left;
 }
 
-p, ol, form{
+p, ol{
     padding: 30px;
     margin: 10px 10px 0px 10px;
     font-size: 1.8rem;
@@ -165,17 +158,23 @@ p, ol, form{
 
 form{
     border: 1px solid black;
+    padding: 30px;
+    margin: 40px 40px 0px 40px;
+    font-size: 1.8rem;
+    line-height: 30px;
+    list-style: square;
+    list-style-position: inside;
 }
 
 h3, h4{
-    padding: 20px;
+    padding: 30px 30px 0px 30px;
     font-size: 3.2rem;
     font-weight: bold;
     margin-left: 10px;
 }
 
 label, h5{
-    margin: 30.5px;
+    margin: 25.5px;
 }
 
 .surwey{
@@ -185,15 +184,14 @@ label, h5{
 
 #fullname, #email, #message{
     display: block;
-    width:900px;
+    width:850px;
     height: 30px;
     margin: 20px auto;
-    font-size: 1.5rem;
 }
 
 button{
     display: block;
-    margin: 30px 30px 0px 30px;
+    margin: 30px 30px 10px 25.5px;
     width: 80px;
     border: 1px solid black;
     border-radius: 10px;
