@@ -49,13 +49,13 @@ table {
 
 
 
-
+/* I added the css reset */
 /* *********************************************************************
                             DEFAULTS
 ************************************************************************ */
 
 
-/* adding main background colour and font styles, sizes */
+/* adding main background colour, font style, root font size, and font colour. */
 
 html{
     font-size: 10px;
@@ -68,7 +68,7 @@ html{
                             MAIN
 ************************************************************************ */
 
-/* I am targeting the all elements in the website with container div id to center them */
+/* I am targeting the all elements in the website with container div id to center them  */
 
 .container{
     width: 1049px;
@@ -76,20 +76,27 @@ html{
     background-color: rgb(209, 221, 219);
 }
 
-/* styling my main title of the page */
+/* styling the main image and putting the site-title on top of it */
 
-#site-title{
+#header{
     color: white;
     height: 341px;
-    background-image: url("../images/lone-starfish-wide.jpg");
-    background-size: cover;
+    position: relative;
 }
 
 h1{
+    position: absolute;
     text-align: center;
     padding-top: 210px;
+    width: 1049px;
     font-size: 6rem;
     font-weight: bold;
+}
+
+.cover-image{
+    height: 341px;
+    width: 1049px;
+    padding: 0%;
 }
 
 
@@ -97,17 +104,18 @@ h1{
                             NAV
 ************************************************************************ */
 
+/* styling the navigator */
 
 nav{
     height: 48px;
 }
 
 nav li{
-    float: left;
+    float: left;  /* to make navigation links sit next to each other */
 }
 
 nav a{
-    display: block;
+    display: block; /* to put navigation links into boxes */
     width: 349px;
 }
 
@@ -133,6 +141,8 @@ nav a :hover {
                             CONTENT
 ************************************************************************ */
 
+/* styling the other elements on the page */
+
 h2{
     font-size: 3.5rem;
     font-weight: bold;
@@ -144,7 +154,7 @@ h2{
 img{
     padding: 20px 20px 20px 40px;
     width: 250px;
-    float: left;
+    float: left;  /* wrapping the text around the image*/
 }
 
 p, ol{
@@ -162,8 +172,6 @@ form{
     margin: 40px 40px 0px 40px;
     font-size: 1.8rem;
     line-height: 30px;
-    list-style: square;
-    list-style-position: inside;
 }
 
 h3, h4{
@@ -201,12 +209,16 @@ button{
     height: 120px;
 }
 
+/* styling the footer */
+
 footer{
     text-align: right;
     font-size: 1.5rem;
     height: 50px;
     padding: 10px;
 }
+
+/* styling the text inside the footer */
 
 .footer{
     height: 50px;

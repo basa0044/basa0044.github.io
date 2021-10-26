@@ -4,35 +4,46 @@
     <!-- Document information -->
     <meta charset="UTF-8">
     <title>Midterm Project</title>
+
+    <!-- adding font-style from google fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
   </head>
+
   <body>
     <!-- Document Content -->
+
+    <!-- taking the whole page into div tag to be able to target them all in css -->
     <div class="container">
+      <!-- adding the main title, image and navigations (in the unordered list) into the header, I gave a class to first two navigations to 
+      style them differently in css -->
     <header>
-      <div id="site-title">
+
+      <div id="header">
         <h1> Lone Starfish </h1>
+        <img class="cover-image" src="images/lone-starfish-wide.jpg" alt="cover image of lone strafish"/>
       </div>
+
         <nav>
           <ul>
 
             <li class="navlink">
-              <a href="index.html" alt="home page">
+              <a href="index.html">
                 <span>HOME</span> 
               </a>
             </li>
 
             <li class="navlink">
-              <a href="index.html" alt="story page">
+              <a href="index.html">
                 <span>STORY</span>
               </a>
             </li>
 
             <li>
-              <a href="index.html" alt="contact page">
+              <a href="index.html">
                 <span>CONTACT</span>
               </a>
             </li>
@@ -41,6 +52,10 @@
         </nav>
 
     </header>
+
+    <!-- adding the contents of the page -->
+
+  <article>
 
     <h2>Life of a Starfish</h2>
     <img src="images/lone-starfish.jpg" alt="image of lone starfish"/>
@@ -52,13 +67,16 @@
       plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch 
       snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; 
       northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.
-       Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker 
-       ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. 
-       Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, 
-       halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor
-        drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine
-         Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. 
-         Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>
+      Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker 
+      ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. 
+      Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, 
+      halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor
+      drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine
+      Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. 
+      Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>
+
+  </article> 
+         <!-- adding an ordered list with a title -->
 
          <h3>Facts About Starfish</h3>
 
@@ -69,24 +87,34 @@
            <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
          </ol>
 
+         <!-- adding a form -->
+
          <h4>Contact to learn more</h4>
+
          <form action="index.html" method="post">
            <label for="fullname">Your Name</label>
            <input id="fullname" type="text">
+
            <label for="email">Your Email</label>
            <input id="email" type="email">
+
            <label for="message">Your Message</label>
            <textarea id="message"></textarea>
+
            <h5>Would you like to visit the starfish?</h5>
            <label class="surwey" for="yes">Yes</label>
            <input type="radio" id="yes" name="options">
+
            <label class="surwey" for="no">No</label>
            <input type="radio" id="no" name="options">
+
            <label class="surwey" for="maybe">Maybe</label>
            <input type="radio" id="maybe" name="options">
+
            <button type="submit">SEND</button>
          </form>
 
+         <!-- adding the footer, I gave a div tag, and a class to the text, in order to position it inside the footer -->
          <footer>
            <div class="footer">&copy; Lone Starfish.</div>
           </footer>
