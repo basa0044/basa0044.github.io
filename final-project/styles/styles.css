@@ -49,15 +49,40 @@ table {
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      DEFAULTS     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+html{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: rgb(34, 34, 34);
+}
+
+p{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      NAV     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-.container{
-    background-color: rgb(17, 17, 17);
-}
-
 nav{
     text-align: center;
+    padding: 10px;
 }
 
 li{
@@ -69,16 +94,16 @@ li:first-child{
 }
 
 a{
-    color: rgb(198, 143, 44);
+    color: rgb(199, 140, 6);
     text-decoration: none;
 }
 
 a:visited{
-    color: gb(198, 143, 44);
+    color: rgb(199, 140, 6);
 }
 
 li:hover{
-    background-color: rgb(198, 143, 44);
+    background-color: rgb(199, 140, 6);
 }
 
 
@@ -88,11 +113,50 @@ li:hover a{
 
 #logo{
     text-align: left;
-    background-color: rgb(198, 143, 44);
+    background-color: rgb(199, 140, 6);
     height: 100%;
 }
 
-.main-banner-image{
+#search{
+    padding: 0px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+}
+
+li form{
+    display: flex;
+    justify-content: center;
+}
+
+#search:hover{
+    background-color: rgb(34, 34, 34);
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  MAIN BANNER     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.main-banner{
+    display: block;
+    height: 100%;
+    position: relative;
+}
+
+#main-image{
+    display: block;
+    position: relative;
+    width: 100vw;
+}
+
+.main-text{
+    position: absolute;
+    background-color: rgba(34, 34, 34, 0.623);
+    padding-right: 5%;
+    padding-left: 2%;
+    z-index: 1;
     width: 100%;
 }
 
