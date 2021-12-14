@@ -58,6 +58,8 @@ html{
 
 .container{
     background-color: rgb(34, 34, 34);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 p{
@@ -97,9 +99,9 @@ h4{
 }
 
 .icon{
-    padding: 1%;
-    display: inline;
+    padding-left: 5%;
     color: white;
+    font-size: 3vw;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -150,6 +152,15 @@ li:hover a{
     padding: 0px;
 }
 
+nav li form button .icon{
+    color: rgb(199, 140, 6);
+}
+
+nav li form button{
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(199, 140, 6);
+}
+
 input{
     width: 100%;
     height: 30px;
@@ -178,12 +189,14 @@ span{
     height: 100%;
     position: relative;
     width: 100vw;
+    max-width: 1200px;
 }
 
 #main-image{
     display: block;
     position: relative;
-    width: 100vw;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .main-text{
@@ -194,11 +207,16 @@ span{
     transform: translate(0, -50%);
     padding-top: 7%;
     padding-bottom: 3%;
-    width: 100vw;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .main-text p, h1{
     padding: 2%;
+}
+
+.main-text p{
+    font-size: 2vw;
 }
 
 #button{
@@ -207,8 +225,8 @@ span{
     background-color: rgb(199, 140, 6);
     color: rgb(34, 34, 34);
     padding: 4%;
-    margin: 2%;
-    width: 25%;
+    width: 26%;
+    margin-left: 2%;
 }
 
 #button .icon{
@@ -266,6 +284,7 @@ span{
 .box{
     background-color: rgb(255, 230, 172);
     margin-top: 3%;
+    height: max-content;
 }
 
 .box p{
@@ -273,21 +292,25 @@ span{
 }
 
 .buttons{
-    display: inline-block;
-    font-size: 2.5vw;
-    padding: 4%;
-    margin: 1.5%;
     background-color: rgb(34, 34, 34);
     text-align: center;
+    padding: 4%;
+    margin: 1.5%;
+    white-space: nowrap;
+    display: inline-block;
 }
 
 .buttons span{
     color: white;
-    width: 100%;
+    font-size: 2.5vw;
 }
 
 .buttons:hover{
     background-color: rgb(199, 140, 6);
+}
+
+.buttons:hover .icon{
+    color: black;
 }
 
 .buttons:hover span{
@@ -319,6 +342,7 @@ span{
 
 .our-vision article p{
     padding: 0 2%;
+    font-size: 2vw;
 }
 
 .our-vision article h3{
@@ -328,6 +352,7 @@ span{
 #learn{
     padding: 5%;
     margin: 2%;
+    width: 20vw;
     text-align: center;
     color: white;
     font-size: 3vw;
@@ -335,6 +360,10 @@ span{
     position: absolute;
     background-color: rgba(34, 34, 34, 0.781);
     border: solid 1px rgb(199, 140, 6);
+}
+
+#learn:hover .icon{
+    color: black;
 }
 
 #learn:hover{
@@ -351,7 +380,7 @@ span{
 }
 
 .our-team img{
-    width: 100vw;
+    width: 100%;
 }
 
 .our-team div{
@@ -424,7 +453,7 @@ th{
 }
 
 table{
-    width: 96vw;
+    width: 100%;
 }
 
 .table{
@@ -435,7 +464,7 @@ table{
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 iframe{
-    width: 96vw;
+    width: 96%;
     padding: 2%;
 }
 
