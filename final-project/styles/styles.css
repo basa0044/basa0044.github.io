@@ -96,6 +96,12 @@ h4{
     margin-right: 2%;
 }
 
+.icon{
+    padding: 1%;
+    display: inline;
+    color: white;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      NAV     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -205,6 +211,10 @@ span{
     width: 25%;
 }
 
+#button .icon{
+    color: black;
+}
+
 #button:hover{
     background-color: rgb(34, 34, 34);
     color: rgb(199, 140, 6);
@@ -273,6 +283,7 @@ span{
 
 .buttons span{
     color: white;
+    width: 100%;
 }
 
 .buttons:hover{
@@ -288,7 +299,7 @@ span{
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .our-vision{
-    height: 43vw;
+    height: 40vw;
     position: relative;
     overflow: hidden;
 }
@@ -301,9 +312,13 @@ span{
 .our-vision article{
     padding: 2%;
     position: absolute;
-    top: 50%;
+    top: 30%;
     transform: translate(0, -50%);
 
+}
+
+.our-vision article p{
+    padding: 0 2%;
 }
 
 .our-vision article h3{
@@ -311,12 +326,13 @@ span{
 }
 
 #learn{
-    padding: 3%;
+    padding: 5%;
     margin: 2%;
     text-align: center;
     color: white;
     font-size: 3vw;
-    display: inline-block;
+    display: block;
+    position: absolute;
     background-color: rgba(34, 34, 34, 0.781);
     border: solid 1px rgb(199, 140, 6);
 }
