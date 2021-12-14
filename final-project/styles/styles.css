@@ -49,12 +49,16 @@ table {
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      DEFAULTS     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      DEFAULTS / MOBILE STYLING    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html{
     font-size: 8px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
 
 .container{
     background-color: rgb(34, 34, 34);
@@ -69,11 +73,13 @@ p{
     font-size: 1.5rem;
     padding-left: 1.5%;
     padding-right: 3%;
+    line-height: 17px;
 }
 
 h1{
     color: white;
     font-size: 9.5vw;
+    font-weight: bold;
 }
 
 h2{
@@ -209,6 +215,7 @@ span{
     padding-bottom: 3%;
     width: 100%;
     max-width: 1200px;
+    font-weight: 200;
 }
 
 .main-text p, h1{
@@ -248,9 +255,9 @@ span{
 }
 
 .about{
-    width: 96%;
+    width: 97%;
     margin: 0 auto;
-    padding: 2%;
+    padding: 1.5%;
 }
 
 .about-us article p{
@@ -483,4 +490,13 @@ iframe{
 
 .footer p a{
     text-decoration: underline;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  DESKTOP STYLING  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media screen and (min-width:760px) and (max-width:1200px){
+    
 }
