@@ -508,11 +508,11 @@ iframe{
 @media screen and (min-width:760px){
 
     h2{
-        font-size: 5rem;
+        font-size: 3.5rem;
     }
 
     h3{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     h4{
@@ -608,10 +608,16 @@ iframe{
         align-items: center;
     }
 
+
     .box h3{
         display: block;
         width: 100%;
         white-space: nowrap;
+    }
+
+
+    .our-services h2{
+        width: 150%;
     }
 
     .box .buttons{
@@ -675,7 +681,7 @@ iframe{
     }
 
     #learn{
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  DESKTOP STYLING / OUR TEAM ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -736,6 +742,12 @@ iframe{
         grid-column: 1 / span 2;
         grid-row: 3 / span 1;
     }
+    
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  DESKTOP STYLING / FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+    .footer p{
+        padding: 1%;
+        padding-left: 3%;
+    }
 
 }
